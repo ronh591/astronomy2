@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Home page specific styles*/
+body.home-page {
+    background-image: url("img/starry_background.jpg"); /*replace with image*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Catalog page specific styles*/
+body.catalog-page {
+    background-color: #e9ecef;
+}
+
+/* Item page specific styles*/
+body.item-page {
+    background-color: #f0f0f0;
+}
+
+/* About page specific styles*/
+body.about-page {
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #007bff; /* A Bootstrap primary color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom rule example */
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #007bff;
+}
+
+.accordion-button:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

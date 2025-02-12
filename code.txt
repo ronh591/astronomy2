@@ -1,0 +1,9 @@
+astronomy_store/
+├── index.html       (Home Page)
+├── catalog.html     (Catalog List Page)
+├── item1.html       (Catalog Item 1 Page)
+├── about.html       (About & Credits Page)
+└── style.css        (External CSS File)
+└── img/             (Image folder)
+    ├── logo.png
+    └── telescope.jpg
